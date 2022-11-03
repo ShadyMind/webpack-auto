@@ -7,7 +7,7 @@
     "webpack"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "webpack-chain": "^6.5.1"
   },

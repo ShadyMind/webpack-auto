@@ -33,5 +33,6 @@
     "terser": "^5.15.1",
     "type-fest": "^3.1.0",
     "typescript": "^4.8.4"
-  }
+  },
+  "gitHead": "d5e984e043a0a1a04e98eb647ba37d4fdaf23a76"
 }
