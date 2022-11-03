@@ -3,6 +3,7 @@
   "useWorkspaces": true,
   "version": "independent",
   "npmClient": "npm",
+  "loglevel": "verbose",
   "command": {
     "publish": {
       "allowBranch": "main",
