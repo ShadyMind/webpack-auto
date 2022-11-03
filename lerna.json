@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "npm",
+  "command": {
+    "publish": {
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "message": "chore: Publish %s"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  
+  "tagVersionPrefix": "v",
+  "concurrency": 4
+}

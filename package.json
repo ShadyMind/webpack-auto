@@ -1,0 +1,33 @@
+{
+  "name": "webpack-auto",
+  "version": "0.0.1-a",
+  "main": "build/index.min.js",
+  "typings": "build/index.d.ts",
+  "keywords": [
+    "webpack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack-chain": "^6.5.1"
+  },
+  "devDependencies": {
+    "lerna": "^6.0.1",
+    "terser": "^5.15.1",
+    "typescript": "^4.8.4",
+    "@types/node": "^18.11.9",
+    "type-fest": "^3.1.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadyMind/webpack-auto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShadyMind/webpack-auto/issues"
+  },
+  "homepage": "https://github.com/ShadyMind/webpack-auto#readme",
+  "description": ""
+}
