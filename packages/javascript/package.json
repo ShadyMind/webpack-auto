@@ -6,6 +6,7 @@
   "homepage": "https://github.com/ShadyMind/webpack-auto/tree/main/packages/javascript#readme",
   "license": "MIT",
   "main": "build/index.min.js",
+  "typings": "build/index.d.ts",
   "files": [
     "lib"
   ],
@@ -17,8 +18,7 @@
     "clean": "rm -rf build/*",
     "compile": "tsc",
     "minify": "$NX_WORKSPACE_ROOT/scripts/compress.sh",
-    "build": "npm run clean && npm run compile && npm run minify",
-    "test": "jest"
+    "build": "npm run clean && npm run compile && npm run minify"
   },
   "bugs": {
     "url": "https://github.com/ShadyMind/webpack-auto/issues"
