@@ -1,0 +1,35 @@
+{
+  "name": "@webpack-auto/page",
+  "version": "0.1.11",
+  "description": "> TODO: description",
+  "author": "Webpack Auto DevTeam <boris.astanin+webpackauto@gmail.com>",
+  "homepage": "https://github.com/ShadyMind/webpack-auto/tree/main/packages/javascript#readme",
+  "license": "MIT",
+  "main": "build/index.min.js",
+  "typings": "build/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadyMind/webpack-auto.git"
+  },
+  "scripts": {
+    "clean": "rm -rf build/*",
+    "compile": "tsc",
+    "minify": "$NX_WORKSPACE_ROOT/scripts/compress.sh",
+    "build": "npm run clean && npm run compile && npm run minify && cp ./static/index.html ./build/index.html"
+  },
+  "bugs": {
+    "url": "https://github.com/ShadyMind/webpack-auto/issues"
+  },
+  "devDependencies": {
+    "@webpack-auto/types": "^0.1.10",
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  },
+  "gitHead": "bb8b286c83e123835eb7c258b4e0d106d6039f25"
+}
