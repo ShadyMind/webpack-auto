@@ -1,6 +1,6 @@
 {
   "name": "@webpack-auto/javascript",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "> TODO: description",
   "author": "Webpack Auto DevTeam <boris.astanin+webpackauto@gmail.com>",
   "homepage": "https://github.com/ShadyMind/webpack-auto/tree/main/packages/javascript#readme",
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.2.1",
-    "@webpack-auto/types": "^0.1.9",
+    "@webpack-auto/types": "^0.1.10",
     "jest": "^29.2.2",
     "ts-jest": "^29.0.3",
     "ts-node": "^10.9.1",
