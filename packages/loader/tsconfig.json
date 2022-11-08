@@ -4,7 +4,11 @@
     "baseUrl": "./src",
     "outDir": "./build",
     "types": [
-      "jest"
+      "jest",
+      "node"
     ]
-  }
+  },
+  "files": [
+    "src/index.ts"
+  ]
 }

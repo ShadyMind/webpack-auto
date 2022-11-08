@@ -4,6 +4,8 @@ import path from 'node:path';
 import Config from 'webpack-chain';
 import { readPackageJson, getModules, validateMiddlewares, normalizeConfig } from './utils';
 
+export type { WebpackAutoLoaderConfig };
+
 export const webpackAuto = async (
     packageJSONLocation: string = path.join(process.cwd(), 'package.json'),
     options: Partial<WebpackAutoLoaderConfig>
