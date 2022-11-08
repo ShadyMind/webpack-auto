@@ -1,6 +1,6 @@
 {
   "name": "@webpack-auto/page",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "> TODO: description",
   "author": "Webpack Auto DevTeam <boris.astanin+webpackauto@gmail.com>",
   "homepage": "https://github.com/ShadyMind/webpack-auto/tree/main/packages/javascript#readme",
@@ -24,8 +24,8 @@
     "url": "https://github.com/ShadyMind/webpack-auto/issues"
   },
   "devDependencies": {
-    "@webpack-auto/types": "^0.1.10",
     "@types/node": "^18.11.9",
+    "@webpack-auto/types": "^0.1.12",
     "typescript": "^4.8.4"
   },
   "dependencies": {
