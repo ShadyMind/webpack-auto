@@ -1,11 +1,22 @@
-# `javascript`
+#  Webpack Auto: JavaScript feature
 
-> TODO: description
+Handle javascript files
+
+With features:
+* Use babel to transpile javascript files
 
 ## Usage
 
+```sh
+$ npm install --save-dev @webpack-auto/javascript
 ```
-const javascript = require('javascript');
 
-// TODO: DEMONSTRATE API
+Result in `package.json`:
+
+```jsonc
+{
+  "devDependencies": {
+    "@webpack-auto/javascript": "0.1.8"
+  }
+}
 ```

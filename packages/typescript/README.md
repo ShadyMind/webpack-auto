@@ -1,11 +1,24 @@
-# `javascript`
+#  Webpack Auto: TypeScript feature
 
-> TODO: description
+Handle typescript files (*.ts)
+
+With features:
+* Use aliases from `tsconfig.json` file;
+* Main thread used only for compile;
+* Fork process to check types. 
 
 ## Usage
 
+```sh
+$ npm install --save-dev @webpack-auto/typescript
 ```
-const javascript = require('javascript');
 
-// TODO: DEMONSTRATE API
+Result in `package.json`:
+
+```jsonc
+{
+  "devDependencies": {
+    "@webpack-auto/typescript": "0.1.8"
+  }
+}
 ```

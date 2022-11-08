@@ -1,11 +1,18 @@
-# `types`
+# Webpack Auto: Types
 
-> TODO: description
+Public types for webpack auto features.
 
 ## Usage
 
-```
-const types = require('types');
+file `custom.autofeature.js`
+```typescript
+import type { Middleware } from '@webpack-auto/types';
 
-// TODO: DEMONSTRATE API
+const customFeature: Middleware = (config) => {
+  // api access here
+
+  return config;
+};
+
+export default customFeature;
 ```
