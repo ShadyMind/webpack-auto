@@ -33,6 +33,7 @@
     "webpack-chain": "^6.5.1"
   },
   "devDependencies": {
+    "@webpack-auto/types": "../types",
     "babel-jest": "^29.2.2",
     "@babel/preset-env": "^7.19.4",
     "@types/jest": "^29.2.1",

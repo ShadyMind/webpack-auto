@@ -16,7 +16,6 @@
     "packages/javascript"
 
   ],
-  
   "tagVersionPrefix": "v",
   "concurrency": 4
 }
