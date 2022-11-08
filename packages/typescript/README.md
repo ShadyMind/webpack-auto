@@ -10,7 +10,7 @@ With features:
 ## Usage
 
 ```sh
-$ npm install --save-dev @webpack-auto/typescript
+$ npm install --save-dev ts-loader tsconfig-paths-webpack-plugin fork-ts-checker-webpack-plugin @webpack-auto/typescript
 ```
 
 Result in `package.json`:
@@ -18,7 +18,7 @@ Result in `package.json`:
 ```jsonc
 {
   "devDependencies": {
-    "@webpack-auto/typescript": "0.1.8"
+    "@webpack-auto/typescript": "..."
   }
 }
 ```

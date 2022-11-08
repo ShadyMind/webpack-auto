@@ -1,11 +1,11 @@
-#  Webpack Auto: JavaScript feature
+#  Webpack Auto: Page feature
 
-Handle SVG files
+Creates static root HTML page
 
 ## Usage
 
 ```sh
-$ npm install --save-dev @webpack-auto/svg
+$ npm install --save-dev @webpack-auto/page
 ```
 
 Result in `package.json`:
@@ -13,7 +13,7 @@ Result in `package.json`:
 ```jsonc
 {
   "devDependencies": {
-    "@webpack-auto/svg": "0.1.8"
+    "@webpack-auto/page": "..."
   }
 }
 ```

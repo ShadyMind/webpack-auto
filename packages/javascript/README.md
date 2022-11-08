@@ -8,7 +8,7 @@ With features:
 ## Usage
 
 ```sh
-$ npm install --save-dev @webpack-auto/javascript
+$ npm install --save-dev babel-loader @babel/core @babel/preset-env @webpack-auto/javascript
 ```
 
 Result in `package.json`:
@@ -16,7 +16,10 @@ Result in `package.json`:
 ```jsonc
 {
   "devDependencies": {
-    "@webpack-auto/javascript": "0.1.8"
+    "babel-loader": "...",
+    "@babel/core": "...",
+    "@babel/preset-env": "...",
+    "@webpack-auto/javascript": "..."
   }
 }
 ```

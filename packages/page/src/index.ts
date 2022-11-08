@@ -3,11 +3,13 @@ import type { MetaOptions } from './types';
 import path from 'node:path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
+export type PageFeatureOptions = {
+  meta?: MetaOptions;
+  locale?: string;
+} | undefined;
+
 declare global {
-  var pageFeatureOptions: {
-    meta?: MetaOptions;
-    locale?: string;
-  } | undefined;
+  var pageFeatureOptions: PageFeatureOptions;
 }
 
 export const pageFeature: Middleware = (config, pack) => {

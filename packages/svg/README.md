@@ -1,4 +1,4 @@
-#  Webpack Auto: JavaScript feature
+#  Webpack Auto: SVG feature
 
 Handle SVG files
 
