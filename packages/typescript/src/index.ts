@@ -6,7 +6,7 @@ export const typescriptFeature: Middleware = (config) =>
   config
     .module
       .rule('typescript')
-        .test(/\.tsx?$/)
+        .test(/\.ts$/)
         .use('typescript')
           .loader('ts-loader')
           .end()
