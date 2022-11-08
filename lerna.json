@@ -12,7 +12,9 @@
     }
   },
   "packages": [
-    "packages/*"
+    "packages/loader",
+    "packages/javascript"
+
   ],
   
   "tagVersionPrefix": "v",
