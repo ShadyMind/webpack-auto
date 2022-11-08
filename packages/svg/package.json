@@ -35,5 +35,6 @@
   },
   "dependencies": {
     "@svgr/webpack": "^6.5.1"
-  }
+  },
+  "gitHead": "bb8b286c83e123835eb7c258b4e0d106d6039f25"
 }

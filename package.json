@@ -8,6 +8,11 @@
   ],
   "author": "",
   "license": "MIT",
+  "scripts": {
+    "release": "lerna exec --scope=\"@webpack-auto/*\" \"npm publish --access=\"public\"\"",
+    "test": "lerna run test",
+    "build": "lerna run build && lerna link"
+  },
   "dependencies": {
     "tslib": "^2.3.0",
     "webpack-chain": "^6.5.1"
