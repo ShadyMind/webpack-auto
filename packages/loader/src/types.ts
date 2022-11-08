@@ -20,3 +20,8 @@ export interface WebpackAutoLoaderConfig {
   include: Record<DependencyTypes, boolean>;
   // overrideEntries: Record<string, EntryType>;
 }
+
+export interface WebpackAutoLoaderOptions {
+  include?: Partial<Record<DependencyTypes, boolean>> | false;
+  // overrideEntries?: Partial<Record<string, EntryType>> | false;
+}

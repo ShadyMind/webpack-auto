@@ -10,7 +10,7 @@ export const webpackAuto = async (
 ) => {
     const config = normalizeConfig(options);
     const packageJsonData = await readPackageJson(packageJSONLocation);
-    const moduleNames = getModules(packageJsonData, config);
-    const middlewares = validateMiddlewares(moduleNames);
+    const modules = getModules(packageJsonData, config);
+    const middlewares = validateMiddlewares(modules);
     return middlewares.reduce((acc, middleware) => middleware(acc), new Config());
 };

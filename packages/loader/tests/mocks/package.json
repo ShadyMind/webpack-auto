@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "foo": "./modules/foo.js"
+  },
+  "devDependencies": {
+    "bar": "./modules/bar.js"
+  },
+  "peerDependencies": {
+    "baz": "./modules/baz.js"
+  },
+  "optionalDependencies": {
+    "pez": "./modules/pez.js"
+  }
+}
