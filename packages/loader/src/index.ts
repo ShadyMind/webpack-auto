@@ -10,7 +10,32 @@ export const webpackAuto = async (
 ) => {
     const config = normalizeConfig(options);
     const packageJsonData = await readPackageJson(packageJSONLocation);
-    const modules = getModules(packageJsonData, config);
+    const modules = getModules(
+      packageJsonData,
+      path.dirname(packageJSONLocation),
+      config
+    );
     const middlewares = validateMiddlewares(modules);
-    return middlewares.reduce((acc, middleware) => middleware(acc), new Config());
+    
+    let i = 0;
+    let len = middlewares.length;
+    const cursor = Promise.resolve(new Config());
+
+    while (i < len) {
+      const middleware = middlewares[i];
+
+      cursor.then((config) => {
+        const result = middleware!(config);
+
+        if (result instanceof Promise) {
+          return result;
+        } else {
+          return Promise.resolve(result);
+        }
+      });
+
+      i++;
+    }
+
+    return cursor;
 };
