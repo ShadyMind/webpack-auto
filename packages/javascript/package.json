@@ -1,7 +1,7 @@
 {
   "name": "@webpack-auto/javascript",
   "version": "0.1.13",
-  "description": "> TODO: description",
+  "description": "Adds javascript support with webpack auto",
   "author": "Webpack Auto DevTeam <boris.astanin+webpackauto@gmail.com>",
   "homepage": "https://github.com/ShadyMind/webpack-auto/tree/main/packages/javascript#readme",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "name": "@webpack-auto/types",
   "version": "0.1.12",
-  "description": "",
+  "description": "Contains common types to work with Webpack Auto",
   "author": "Webpack Auto DevTeam <boris.astanin+webpackauto@gmail.com>",
   "homepage": "https://github.com/ShadyMind/webpack-auto/tree/main/packages/types#readme",
   "license": "MIT",
@@ -10,9 +10,6 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShadyMind/webpack-auto.git"
