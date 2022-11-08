@@ -11,5 +11,11 @@ file: `webpack.config.js`
 
 const { loader } = require('@webpack-auto/loader');
 
+const pageFeatureOptions = {
+  meta: {
+    description: 'Some fancy description for your application'
+  }
+};
+
 module.exports = loader().toConfig();
 ```

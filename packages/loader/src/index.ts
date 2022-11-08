@@ -27,7 +27,7 @@ export const webpackAuto = async (
       const middleware = middlewares[i];
 
       cursor.then((config) => {
-        const result = middleware!(config);
+        const result = middleware!(config, packageJsonData);
 
         if (result instanceof Promise) {
           return result;
