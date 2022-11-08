@@ -1,4 +1,5 @@
-import type { BasicMiddleware, WebpackAutoLoaderConfig, WebpackAutoLoaderOptions } from './types';
+import type { BasicMiddleware } from '@webpack-auto/types';
+import type { WebpackAutoLoaderConfig, WebpackAutoLoaderOptions } from './types';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import Config from 'webpack-chain';

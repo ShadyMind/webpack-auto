@@ -1,4 +1,4 @@
-import { BasicMiddleware } from "./types";
+import { BasicMiddleware } from "@webpack-auto/types";
 import Config from 'webpack-chain';
 
 export const isObject = (input: unknown): input is Record<string, unknown> => {

@@ -1,0 +1,33 @@
+{
+  "name": "@webpack-auto/types",
+  "version": "0.1.4",
+  "description": "",
+  "author": "Webpack Auto DevTeam <boris.astanin+webpackauto@gmail.com>",
+  "homepage": "https://github.com/ShadyMind/webpack-auto/tree/main/packages/types#readme",
+  "license": "MIT",
+  "typings": "build/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadyMind/webpack-auto.git"
+  },
+  "scripts": {
+    "clean": "rm -rf build/*",
+    "compile": "tsc",
+    "build": "npm run clean && npm run compile"
+  },
+  "bugs": {
+    "url": "https://github.com/ShadyMind/webpack-auto/issues"
+  },
+  "dependencies": {
+    "type-fest": "^3.2.0",
+    "typescript": "^4.8.4",
+    "webpack-chain": "^6.5.1"
+  }
+}
