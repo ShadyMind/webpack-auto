@@ -28,7 +28,6 @@
   "bugs": {
     "url": "https://github.com/ShadyMind/webpack-auto/issues"
   },
-  "gitHead": "f4c146d2f02f074060f0203c0a0ed60285e64806",
   "dependencies": {
     "webpack-chain": "^6.5.1"
   },
@@ -37,7 +36,7 @@
     "@types/jest": "^29.2.1",
     "@types/lodash": "^4.14.187",
     "@types/node": "^18.11.9",
-    "@webpack-auto/types": "../types",
+    "@webpack-auto/types": "^0.1.5",
     "babel-jest": "^29.2.2",
     "jest": "^29.2.2",
     "lodash": "^4.17.21",
