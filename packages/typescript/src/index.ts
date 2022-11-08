@@ -1,6 +1,4 @@
 import type { Middleware } from '@webpack-auto/types';
-import forkTSChecker from 'fork-ts-checker-webpack-plugin';
-import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
 
 export const typescriptFeature: Middleware = (config) =>
   config
@@ -14,11 +12,11 @@ export const typescriptFeature: Middleware = (config) =>
       .end()
     .resolve
       .plugin('tsconfig-paths')
-        .use(TsconfigPathsPlugin)
+        .use('tsconfig-paths-webpack-plugin')
         .end()
       .end()
     .plugin('ts-checker')
-      .use(forkTSChecker, [{
+      .use('fork-ts-checker-webpack-plugin', [{
         typescript: {
           mode: 'readonly'
         },
