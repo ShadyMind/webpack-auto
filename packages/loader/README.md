@@ -1,11 +1,13 @@
-# `loader`
+# Webpack Auto: Loader
 
-> TODO: description
+> It loads webpack-auto extensions from `package.json` dependencies.
 
 ## Usage
 
-```
-const loader = require('loader');
+file: `webpack.config.js`
 
-// TODO: DEMONSTRATE API
+```javascript
+'use strict';
+
+module.exports = require('@webpack-auto/loader').toConfig();
 ```

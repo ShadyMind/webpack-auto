@@ -1,11 +1,3 @@
-# `loader`
+# Webpack Auto
 
-> TODO: description
-
-## Usage
-
-```
-const loader = require('loader');
-
-// TODO: DEMONSTRATE API
-```
+this project aimed to simplify webpack configuration
