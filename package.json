@@ -1,6 +1,6 @@
 {
   "name": "webpack-auto",
-  "version": "0.0.1-a",
+  "version": "0.1.8",
   "main": "build/index.min.js",
   "typings": "build/index.d.ts",
   "keywords": [
